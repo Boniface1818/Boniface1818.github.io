@@ -14,7 +14,6 @@
             color: #e0e0e0;
             background: linear-gradient(135deg, #1e1e2f, #2b2b3c, #3a3a50);
             background-attachment: fixed;
-            text-align: center; /* center everything by default */
         }
         h1 {
             border-bottom: 2px solid #8ec6c5;
@@ -38,7 +37,6 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.5);
             margin-bottom: 30px;
             border-left: 4px solid #8ec6c5;
-            text-align: left; /* keep section content left-aligned */
         }
         ul {
             list-style: none;
@@ -49,15 +47,6 @@
         }
         li {
             margin-bottom: 10px;
-        }
-
-        /* Profile image */
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 4px solid #8ec6c5;
-            margin-bottom: 20px;
         }
 
         /* Waving hand animation */
@@ -78,10 +67,6 @@
     </style>
 </head>
 <body>
-    <!-- Profile Picture -->
-    <img src=<img width="1024" height="1024" alt="Boniface1818_profile_compressed" src="https://github.com/user-attachments/assets/8a7d7bd9-5ed8-4b47-9d83-86f619092bda" />
- alt="Boniface Kagunda" class="profile-pic">
-
     <h1>Welcome! I'm Boniface Kagunda <span class="wave-hand">👋</span></h1>
 
     <div class="section">
